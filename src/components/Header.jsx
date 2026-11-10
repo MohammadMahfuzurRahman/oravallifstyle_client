@@ -17,7 +17,6 @@ export default function Header() {
         <nav className="nav">
           <Link href="/#shop">Shop</Link>
           <Link href="/orders">Orders</Link>
-          <Link href="/admin">Admin</Link>
           <button
             className="cart-btn"
             onClick={() => setOpen(true)}
