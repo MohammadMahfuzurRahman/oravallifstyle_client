@@ -6,18 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "seed": "node --env-file=.env.local scripts/seed.js",
+    "seed": "node --env-file=.env.local src/scripts/seed.js",
     "launch": "npm run seed && next dev"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "jose": "^5.9.6",
     "mongodb": "^6.22.0",
-    "next": "14.2.15",
+    "next": "^16.4.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^4.3.5"
   },
   "engines": {
     "node": ">=20.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5"
   }
 }
